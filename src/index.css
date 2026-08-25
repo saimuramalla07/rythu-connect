@@ -4,20 +4,15 @@
 
 @layer base {
   body {
-    @apply bg-slate-900 text-slate-900;
+    @apply bg-gray-50 text-gray-900 font-sans antialiased;
   }
 }
 
-/* Custom scrollbars for mobile frames */
+/* Custom scrollbars */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
-
-/* Green theme glow utilities */
-.brand-glow {
-  box-shadow: 0 10px 25px -5px rgba(21, 128, 61, 0.25);
 }
